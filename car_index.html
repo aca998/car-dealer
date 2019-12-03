@@ -26,7 +26,12 @@
                             </label>
                             <input type="password" class="form-control form-control-lg mr-2" placeholder="Your password">   
                         </div>
-                        <button class="btn btn-primary btn-lg">Log In</button>
+                        <button onclick="myFunction()" class="btn btn-primary btn-lg">Log In</button>
+                        <script>
+                            function myFunction() {
+                              alert("The email address that you've entered doesn't match any account.");
+                            }
+                            </script>
                     </form>
                     <div class="row">
                     <a href="#" style="font-size: small;" class="col-md-5">Forgot your username?</a>
