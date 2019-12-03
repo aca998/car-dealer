@@ -11,14 +11,35 @@ html, body{
     align-items: center;
 }
 .cover-caption{
-    margin: 0px 530px 350px 0px;
+    margin: -30px 530px 350px 0px;
     width: 100%;
 }
 .font{
     font-family: 'OCR A Std' , monospace;
     text-shadow: 2px 2px blue;
 }
+/********HOMEPAGE********/
 .pis{
     font: bold;
     text-shadow: 1px 1px blue;
 }
+.carousel{
+    
+    max-width: 100%;
+}
+.carousel img{
+    max-width: 100%;
+}
+.rv{
+    margin: 10px 350px 0px 350px;
+    max-width: 100%;
+}
+.pfu{
+    text-align: center;
+    color: rgba(0, 0, 0, 5);
+    
+}
+.fu{
+    background: #f8f9fa;
+}
+
