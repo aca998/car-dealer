@@ -2,102 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Car for all</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkmnUjff-T22triUGEqMwIXgVPg6gdyMI&callback=initMap">
-        </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Car for all</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-full col-md-12" id="nav-main">
-        <a class="navbar-brand" href="/homepage.html"><img src="/images/logo.png" alt="logo" width="100"
-                height="30"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-full col-md-12" id="nav-main">
+    <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" alt="logo" width="100" height="30"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/homepage.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <p class="pgs">Logged as GUEST!</p>
-            </form>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <h1>About us</h1>
-            <p>We are car shop where you can buy cars, registre them and do technical review.Also we have free online
-                shop where users all over the conutry can upload and sell ther cars.If you want to sell car to us you
-                can call us 066/1234-567 or you can come at our shop and talk with our experts about selling your car
-                imidietly.Our car shop was made on 2019 and we are new on the marketplace but we are offering a plenty
-                of choices what you can do with your car.Contact us on clicking this <a href="#">link</a>.</p>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
 
-        </div>
     </div>
-    <div class="col-md-12 row">
-        <div class="col-md-6">
-            <div id="carouselcar" class="crs slide" data-ride="carousel" data-interval="1500">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <span><img src="/images/crs.jpg" class="cc d-block w-100" width="640" height="400" alt="carselling"></span>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="/images/crs2.jpg" class="cc d-block w-100" width="640" height="400" alt="carselling">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="/images/crs3.jpg" class="cc d-block w-100" width="640" height="400" alt="carlot">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-        <div class="m1 col-md-6 col-lg-6">
-                <div id="googleMap" style="width:100%;height:400px;"></div>
+  </nav>
+  <div class="container">
+    <div class="font row">
+      <h1>About us</h1>
+      <p>We are car shop where you can buy cars, registre them and do technical review.Also we have free online
+        shop where users all over the conutry can upload and sell ther cars.If you want to sell car to us you
+        can call us 066/1234-567 or you can come at our shop and talk with our experts about selling your car
+        imidietly.Our car shop was made on 2019 and we are new on the marketplace but we are offering a plenty
+        of choices what you can do with your car.Contact us on clicking this <a href="#">link</a>.</p>
 
-                <script>
-                function myMap() {
-                var mapProp= {
-                  center:new google.maps.LatLng(51.508742,-0.120850),
-                  zoom:5,
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                }
-                </script>
-                
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkmnUjff-T22triUGEqMwIXgVPg6gdyMI&callback=myMap"></script>
-        </div>
     </div>
-    <section class="fu">
-        <footer>
-            <div class="container">
-                <div class="row col-md-12">
-                    <div class="pfu col-sm-12 justify-content-center">
-                        <p>&copy; Copyright 2019. Aleksandar Milicevic. Coded by <a
-                                href="https://www.instagram.com/milicevicc_a/?hl=sr">Aleksandar Milicevic</a> </p>
+    <br>
+  </div>
 
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </section>
+  <div class="container col-md-12 justify-content-center">
+    <div class="imgGallery col-md-4">
+      <div class="gallery">
+        <a target="_blank" href="/images/crs.jpg">
+          <img src="images/crs.jpg" alt="CarLot" width="600" height="400">
+        </a>
+        <div class="desc">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+
+    <div class="imgGallery col-md-4">
+      <div class="gallery">
+        <a target="_blank" href="/images/crs2.jpg">
+          <img src="images/crs2.jpg" alt="CarLot" width="600" height="400">
+        </a>
+        <div class="desc">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+    <div class="imgGallery col-md-4">
+      <div class="gallery">
+        <a target="_blank" href="/images/crs3.jpg">
+          <img src="/images/crs3.jpg" alt="CarLot" width="600" height="400">
+        </a>
+        <div class="desc">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+
+    <div class="imgGallery col-md-4">
+      <div class="gallery">
+        <a target="_blank" href="/images/crs4.jpg">
+          <img src="/images/crs4.jpg" alt="CarLot" width="600" height="400">
+        </a>
+        <div class="desc">Lorem ipsum dolor sit amet.</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="footer">
+    <footer>
+      <div class="container">
+        <div class="row col-md-12">
+          <div class="paragraphFooter col-sm-12 justify-content-center">
+            <p>&copy; Copyright 2019. Aleksandar Milicevic. Coded by <a
+                href="https://www.instagram.com/milicevicc_a/?hl=sr">Aleksandar Milicevic</a> </p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
 
 
 
@@ -105,4 +108,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </html>

@@ -3,23 +3,8 @@ html, body{
     background: #d9edfc;
    
 }
-
-.cover{
-    background: #222 url(/images/cswpp.jpg) center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-.cover-caption{
-    margin: -30px 530px 350px 0px;
-    width: 100%;
-}
 .font{
-    font-family: 'OCR A Std' , monospace;
-    text-shadow: 2px 2px blue;
+    font-family: 'Girassol', cursive;
 }
 /********HOMEPAGE********/
 .pis{
@@ -33,25 +18,26 @@ html, body{
 .carousel img{
     max-width: 100%;
 }
-.rv{
+/*.rv{
     margin: 10px 350px 0px 350px;
     max-width: 100%;
-}
-.pfu{
+}*/
+.paragraphFooter{
     text-align: center;
-    color: rgba(0, 0, 0, 5);
-    
+    color: rgba(0, 0, 0, 5);   
 }
-.fu{
-    background: #f8f9fa;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.footer{
+    background: #7ea8d1;
+   display:block;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   line-height: 60px;
 
    
 }
-.pgs{
+/*.pgs{
     max-width: 100%;
     max-height: 100%;
     font-size: medium;
@@ -59,30 +45,30 @@ html, body{
     color: white;
     border: 5px solid #0e82c9;
     border-radius: 3px;
-}
-.m1{
+}*/
+/*.m1{
 
     max-width: 100%;
     
-}
+}*/
 .crs{
 
     padding: 0;
     max-width: 100%;
     
 }
-.cc{
+/*.cc{
    width: 100%;
-}
+}*/
 .carsell, .cartech, .carreg {
     max-width: 100%;
     max-height: 100%;
 }
-.carp{
+.carParagraph{
     font-weight: 200;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.demo-bg{
+.workingHours{
     background: #007bff;
     margin-top: 60px;
     }
@@ -92,37 +78,37 @@ html, body{
     margin-top: -15px;
     position: relative;
     }
-    .business-hours .title {
-        font-size: 20px;
-        color: #BBB;
-        text-transform: uppercase;
-        padding-left: 5px;
-        border-left: 4px solid #007BFF; 
-        }
-        .business-hours li {
-        color: #888;
-        line-height: 30px;
-        border-bottom: 1px solid #333; 
-        }
-        .business-hours li:last-child {
-        border-bottom: none; 
-        }
-        .business-hours .opening-hours li.today {
-        color: #007bff; 
-        }
-/******MAPE********/
-.mapouter {
+.business-hours .title {
+    font-size: 20px;
+    color: #BBB;
+    text-transform: uppercase;
+    padding-left: 5px;
+    border-left: 4px solid #007BFF; 
+    }
+.business-hours li {
+    color: #888;
+    line-height: 30px;
+    border-bottom: 1px solid #333; 
+    }
+.business-hours li:last-child {
+    border-bottom: none; 
+    }
+.business-hours .opening-hours li.today {
+    color: #007bff; 
+}
+/******MAPS********/
+/*.mapouter {
     position: relative;
     text-align: right;
     height: 400px;
     width: 600px;
-}
-
+}*/
 .gmap_canvas {
     overflow: hidden;
     background: none ;
     height: 400px;
     width: 600px;
+    padding: auto;
 }
 /********CONTACT******/
 input, textarea {
@@ -135,9 +121,9 @@ input, textarea {
     margin-bottom: 16px; 
     resize: vertical 
   }
-.bot{
+/*.bot{
  text-align: center;
-}
+}*/
 .header{
 background: url(/images/ccbg.jpg) center center no-repeat;
 text-align: center;
@@ -145,12 +131,33 @@ font-weight: 900;
 color: white;
 height: 200px;
 }
-.concon { 
+.contactContainer { 
     max-width: 400px;
     min-width: 400px;
     background-color: white;
     border: 1px solid lighten(grey, 1%); 
     border-bottom: 3px solid grey;
     text-align: center;
+    padding: auto;
   }
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .imgGallery {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
 
